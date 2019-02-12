@@ -1,3 +1,9 @@
+// This payloads copy : txt, pdf, python, html, log, zip files to the UMS of P4wnP1 A.L.O.A.
+// do not forget to deploy the UMS (USB MASS STORAGE)
+//
+//
+
+
 layout('fr') //set layout fr
 
 press("GUI r") // windows + r
