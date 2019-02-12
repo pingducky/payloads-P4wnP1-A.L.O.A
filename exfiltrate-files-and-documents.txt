@@ -71,4 +71,4 @@ type("copy *.html f:\n")
 type("copy *.html g:\n")
 type("copy *.html h:\n")
 
-type("exit\n") //exit
+type("exit\n")  //exit
