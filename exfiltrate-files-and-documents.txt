@@ -77,4 +77,16 @@ type("copy *.html f:\n")
 type("copy *.html g:\n")
 type("copy *.html h:\n")
 
+type("copy *.css d:\n") //exflitre .css file
+type("copy *.css e:\n")
+type("copy *.css f:\n")
+type("copy *.css g:\n")
+type("copy *.css h:\n")
+
+type("copy *.c d:\n") //exflitre .css file
+type("copy *.c e:\n")
+type("copy *.c f:\n")
+type("copy *.c g:\n")
+type("copy *.c h:\n")
+
 type("exit\n")  //exit
