@@ -1,7 +1,8 @@
 // exfiltre wifi password with P4wnp1 A.L.O.A.
 // 
-// not forgot to deploy the ums :
-// 6:55 https://www.youtube.com/watch?v=I_BjCdJlCo4
+// not forgot to deploy the USB MASS STRORAGE :
+// Seytonic video at 6:55 
+// https://www.youtube.com/watch?v=I_BjCdJlCo4
 
 
 layout('fr') // set layout fr
