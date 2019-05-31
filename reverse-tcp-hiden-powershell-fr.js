@@ -5,15 +5,13 @@
 //
 // config ip & port : line 23
 
-// LAYOUT FR !
-
 layout('fr');			// FR keyboard layout
 
-typingSpeed(0,0)        // FAST typingSpeed
+typingSpeed(0,0)
 press("GUI r")			
 delay(400)				
 type("powershell")			
-press("CTRL SHIFT ENTER")	// run as administrator
+press("CTRL SHIFT ENTER")	// run administrator
 delay(1500)			
 press("SHIFT TAB")		
 press("ENTER")			
