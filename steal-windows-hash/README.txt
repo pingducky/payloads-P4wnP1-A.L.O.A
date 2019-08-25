@@ -1,4 +1,4 @@
-How it work ?
+## How it work ?
 
 With a simple attack hid, P4wnP1 ALOA copy sam, security and system file to the usb masse storage (ums), after ~45s P4wnP1 copy the ums disk on his apache2 directory and he start the apache2.
 
@@ -10,11 +10,11 @@ and more informations about the operating system windows like the windows recove
 
 I had some problems mounting the disk, so I chose this alternative (hid, apache start, wget, 7z) to get the system, sam and security files.
 
-
-
 You can launch install-requirement.sh to install impacket, and sshpass.
 
+```
 ./install-requirement.sh
+```
 
 To better understand, I invite you to read the source code of the steal-windows-hash.py file
 
