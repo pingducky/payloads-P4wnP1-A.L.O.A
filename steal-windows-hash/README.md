@@ -19,5 +19,6 @@ Don't forget to put the js file extract-sam-system-security-en.js in /usr/localP
 ```
 cd /usr/local/P4wnP1/helper & ./genimg -i -s 100  -o 100.bin -l disk
 ```
+it's better to run apache before the script is run.
 
 To more understand, I invite you to read the source code of the steal-windows-hash.py file.
