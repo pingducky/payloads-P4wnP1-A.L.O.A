@@ -5,7 +5,7 @@ With a simple attack hid, P4wnP1 copy sam, security and system files to the usb 
 Then, this script download (wget) the .bin disk from the web server of P4wnP1 and extracts the files 
 
 Now it's the tool called secretdump from impacket (https://github.com/SecureAuthCorp/impacket
-) who takes the files (sam, system and security) and extract the windows hash and more informations about the operating system windows like the windows recovery password with question/answer..
+) who takes the files (sam, system and security) and extract the windows hash and more informations about the operating system windows like the windows recovery password with questions & answers..
 
 I had some problems mounting the disk, so I chose this alternative (hid, apache start, wget, 7z) to get the system, sam and security files.
 
