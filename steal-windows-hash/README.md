@@ -14,7 +14,7 @@ You can launch install-requirement.sh to install impacket, and sshpass.
 ```
 ./install-requirement.sh
 ```
-Don't forget to put the file js extract-sam-system-security-en.js in /usr/localP4wnP1/HIDscript/ and create a disk to emulate usb mass storage
+Don't forget to put the js file extract-sam-system-security-en.js in /usr/localP4wnP1/HIDscript/ and create a disk to emulate usb mass storage
 
 ```
 cd /usr/local/P4wnP1/helper & ./genimg -i -s 100  -o 100.bin -l disk
