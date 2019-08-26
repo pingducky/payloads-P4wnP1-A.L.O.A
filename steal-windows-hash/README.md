@@ -15,6 +15,4 @@ You can launch install-requirement.sh to install impacket, and sshpass.
 ./install-requirement.sh
 ```
 
-To better understand, I invite you to read the source code of the steal-windows-hash.py file
-
-I hope you didn't have any problems with my English :')
+To more understand, I invite you to read the source code of the steal-windows-hash.py file
